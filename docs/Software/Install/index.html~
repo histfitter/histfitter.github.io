@@ -1,0 +1,94 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--GENERATION_DATE=2011_08_18-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>HistFitter - software framework for statistical data analysis</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="../../HistFitter.css" rel="stylesheet" media="screen" type="text/css"/>
+<script language="javascript" type="text/javascript" src="../../js/js_incl.js"></script>
+<script language="javascript" type="text/javascript" src="../../js/datemodified.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55224451-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body onload="includeBits('Software - Installation','HFSW_INT','../../','../../img/HFLogo.gif')">
+
+<div id="container">
+<div id="head_container"></div>
+<!--End Header-->
+<div id="wrapper">
+<div id="content">
+
+<hr />
+<table width="100%" cellpadding="0" cellspacing="5" bgcolor="#f5f5fa">
+<hr />
+<table width="100%"><tr><td bgcolor="#f5f5fa">
+<div class="toc"> <ul>
+
+<li> <a href="#Introduction"><font color="#808080">Introduction </font></a>
+</li> <li> <a href="#Installation of ROOT"><font color="#808080">Installation of ROOT</font></a>
+</li> <li> <a href="#HistFitter Installation"><font color="#808080"> HistFitter Installation </font></a>
+</li></ul> 
+</div>
+</td></tr></table>
+
+
+<hr />
+<h2><a name="Introduction"></a><a name="Introduction_"></a> <font color="#808080">Introduction </font> </h2>
+
+The latest recommended HistFitter version can be downloaded here: <a href="../../Files/HistFitter1.0.tar.bz2">HistFitter.1.0.tar.bz2</a> or <a href="../../Files/HistFitter1.0.tar.gz">HistFitter.1.0.tar.gz</a>. <p>
+Please note that the HistFitter group can provide support only on a best-effort basis. But we are happy to hear feedback.
+			      
+<hr />
+<h2><a name="Installation of ROOT"></a><a name="InstallROOT_"></a> <font color="#808080">Installation of ROOT </font> </h2>
+Before installing HistFitter, one needs to setup ROOT.<p>
+The instructions given on the official  <a href="http://root.cern.ch/drupal/content/installing-root-source"> ROOT page</a> should be followed for this.	<p>
+Be sure that when you configure the ROOT installation, you need to enable RooFit and pyROOT with <br> <TT> --enable-roofit --enable-python</TT>. <br>
+The recommended HistFitter version requires ROOT release 5.34.20 or greater.			  
+
+<hr />
+<h2><a name="HistFitter Installation"></a><a name="InstallHistFitter_"></a> <font color="#808080">HistFitter installation </font> </h2>
+After you have installed ROOT and downloaded HistFitter, for installation you need to go through the following steps: <p>
+			      
+- Untar the HistFitter package <!-- <TT> tar -zxvf HistFitter1.0.tar.bz2 </TT> --> <br>
+- Setup ROOT (if not already done) <br>
+- Go the HistFitter directory <TT> cd HistFitter-1.0</TT> <br>  <!-- and adjust the <TT> setup.sh</TT> script to point to your ROOT installation <br> -->
+- Run the HistFitter setup script <TT> source setup.sh</TT> <br>
+- Go to the src/ directory and compile the C++ side of HistFitter <TT> cd src && make </TT> <p>
+- Go back to the main HistFitter directory <p>
+				
+You should be ready to go from here. <p>
+
+Every time you login into your machine and would like to use HistFitter, remember to setup ROOT and run the HistFitter setup script <TT> source setup.sh</TT>.
+
+			      
+</center>
+</td> 
+</tr>
+</table>
+<img src="../../img/blanko.gif" hspace=0 vspace=0 border=0/>
+<hr />
+
+<!--End Content-->
+</div>
+<!--End Wrapper-->
+</div>
+<div id="menu_container"></div>
+<!--End Left-->
+<div id="foot_container"></div>
+</div>
+<div><center><font face="arial, helvetica" size="-1">
+last modified: <script type="text/javascript">writeDateModified (false);</script>
+</center></div>
+</body></html>

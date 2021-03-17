@@ -1,0 +1,329 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--GENERATION_DATE=2011_08_18-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>HistFitter - software framework for statistical data analysis</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="../HistFitter.css" rel="stylesheet" media="screen" type="text/css"/>
+<script language="javascript" type="text/javascript" src="../js/js_incl.js"></script>
+<script language="javascript" type="text/javascript" src="../js/datemodified.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55224451-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body onload="includeBits('Examples','HFSW_INT','../','../img/HFLogo.gif')">
+
+<div id="container">
+<div id="head_container"></div>
+<!--End Header-->
+<div id="wrapper">
+<div id="content">
+
+<hr />
+<table width="100%" cellpadding="0" cellspacing="5" bgcolor="#f5f5fa">
+<hr />
+<table width="100%"><tr><td bgcolor="#f5f5fa">
+<div class="toc"> <ul>
+
+      <li> <a href="#Introduction"><font color="#808080">Introduction </font></a>
+</li> <li> <a href="#Before/after fit plots"><font color="#808080">Plot: Before/after fit plots </font></a>
+</li> <li> <a href="#Contour plot"><font color="#808080">Plot: Contour plot </font></a>
+</li> <li> <a href="#Pull plot"><font color="#808080">Plot: Pull plot </font></a>
+</li> <li> <a href="#Yields table"><font color="#808080">Table: Event yields </font></a>
+</li> <li> <a href="#Systematics table"><font color="#808080">Table: Systematic uncertainties </font></a>
+</li> <li> <a href="#Upper limit table"><font color="#808080">Table: Upper Limits </font></a>
+<p>
+</li> <li> <a href="#Further references"><font color="#808080"><b>Papers using HistFitter </b></font></a>
+</li></ul> 
+</div>
+</td></tr></table>
+
+
+<hr />
+<h2><a name="Introduction"></a><font color="#808080">Introduction </font> </h2>
+HistFitter includes a collection of tools and functions to aid the presentation of the results. <br>
+On this page, we showcase some of the plots/tables that have been produced with HistFitter. <br>
+No physics meaning should be sought in these plots/tables, they are just to show the machinery. <br>
+How to produce these, is described in detail on the  <a href="../Software/Tutorial/index.html"> Tutorial </a> page.
+
+
+
+
+<hr/> <h2> <a name="Before/after fit plots"></a><font color="#808080">Plot: Before/after fit plots </font>
+</h2>
+
+<table align="left" width="100%" bgcolor="#f5f5fa"  border="0" cellpadding="20">
+<tr>
+<td style="width:400px">
+  <strong> Before fit plot </strong> <br>
+  This multi-bin region contains several samples,
+  represented by different colors. The model
+  includes several systematics, that are as the
+  error band on top of the complete model. The
+  difference between the data and the model is
+  exemplified in the ratio plot.<br>
+  For all regions defined in the user configuration
+  file, these plots can be produced by a simple
+  command-line call to the package.
+		    
+</td>
+	      
+<td>
+<center>
+<a href="../img/Examples/can_SLTR_nJet_beforeFit1.png" target="_top">
+	<img border="0" src="../img/Examples/can_SLTR_nJet_beforeFit1.png" width="100%" height="100%"/>
+</a>
+
+<a href="../img/Examples/can_SLTR_nJet_beforeFit.pdf">
+         .pdf
+</a>
+</td>
+
+</tr>	    
+</table>
+	  
+<table align="left" width="100%" bgcolor="#f5f5fa"  border="0" cellpadding="20">
+<tr>
+<td style="width:400px">
+  <strong> After fit plot </strong> <br>
+  The same region but after running the fit
+  of the model to the data.
+		    
+</td>
+	      
+<td>
+<center>
+<a href="../img/Examples/can_SLTR_nJet_afterFit1.png" target="_top">
+	<img border="0" src="../img/Examples/can_SLTR_nJet_afterFit1.png" width="100%" height="100%"/>
+</a>
+
+<a href="../img/Examples/can_SLTR_nJet_afterFit.pdf">
+         .pdf
+</a>
+</td>
+
+</tr>	    
+</table>
+<p/>
+
+	      
+<hr/> <h2> <a name="Contour plot"></a><font color="#808080">Plot: Contour plot </font>
+</h2>
+
+<table align="left" width="100%" bgcolor="#f5f5fa"  border="0" cellpadding="20">
+<tr>
+<td style="width:400px">
+  <strong> Exclusion contour plot </strong> <br>
+  This plot is produced by running an exclusion
+  hypothesis test on a <EM> grid </EM> of signal
+  points belonging to the same signal model. The
+  mass scale parameters <B> m0 </B> and  <B> m1/2 </B> are
+  varied between the signal points. The plot shows
+  the interpolated contour for 95% CL exclusion limit and
+  the uncertainties.
+		    
+</td>
+	      
+<td>
+<center>
+<a href="../img/Examples/contour.png" target="_top">
+	<img border="0" src="../img/Examples/contour.png" width="100%" height="100%"/>
+</a>
+
+<a href="../img/Examples/contour.pdf">
+         .pdf
+</a>
+</td>
+
+</tr>	    
+</table>
+	    
+<p/>
+
+		  
+<hr/> <h2> <a name="Pull plot"></a><font color="#808080">Plot: Pull plot </font>
+</h2>
+
+<table align="left" width="100%" bgcolor="#f5f5fa"  border="0" cellpadding="20">
+<tr>
+<td style="width:400px">
+  <strong> Pull plot </strong> <br>
+  This plot summarizes the difference between
+  the number of observed events (<B>nobs</B>) and the number
+  of predicted events (<B>npred</B>) for several regions.
+  The top plot shows the number of observed/predicted events
+  per region, while the bottom plot shows the <EM> pull </EM>,
+  defined as the difference divided by the total uncertainty.
+	      
+</td>
+	      
+<td>
+<center>
+<a href="../img/Examples/histpull_Validation_pull_plot1.png" target="_top">
+	<img border="0" src="../img/Examples/histpull_Validation_pull_plot1.png" width="100%" height="100%"/>
+</a>
+
+<a href="../img/Examples/histpull_Validation_pull_plot.pdf">
+         .pdf
+</a>
+</td>
+
+</tr>	    
+</table>
+	    
+<p/>
+
+		      
+<hr/> <h2> <a name="Yields table"></a> <font color="#808080">Table: Event yields </font>
+</h2>
+
+<table align="left" width="100%" bgcolor="#f5f5fa"  border="0" cellpadding="20">
+<tr>
+<td style="width:400px">
+  <strong> Yields table </strong> <br>
+  This table shows the number of observed events
+  and the number of predicted events, before and after
+  the fit, with the corresponding uncertainties. The
+  number of predicted events is also shown per sample
+  that is included in the model. Multiple options exist
+  in the table production script to mould the output
+  to users needs.
+	      
+</td>
+	      
+<td>
+<center>
+<a href="../img/Examples/yieldsTable.png" target="_top">
+	<img border="0" src="../img/Examples/yieldsTable.png" width="100%" height="100%"/>
+</a>
+
+<a href="../img/Examples/yieldsTable.pdf">
+         .pdf
+</a>
+</td>
+
+</tr>	    
+</table>
+		  
+<p/>
+
+			  
+<hr/> <h2> <a name="Systematics table"></a><font color="#808080">Table: Systematic uncertainties </font>
+</h2>
+
+<table align="left" width="100%" bgcolor="#f5f5fa"  border="0" cellpadding="20">
+<tr>
+<td style="width:400px">
+  <strong> Systematics table </strong> <br>
+  This table shows the breakdown of the parameters
+  included in the model. For the systematics, nuisance
+  parameters are introduced, while the normalization
+  factors for the dominant backgrounds are typically treated
+  as free floating parameters. Multiple options exist
+  in the table production script to mould the output
+  to users needs.
+	      
+</td>
+	      
+<td>
+<center>
+<a href="../img/Examples/sysTable.png" target="_top">
+	<img border="0" src="../img/Examples/sysTable.png" width="100%" height="100%"/>
+</a>
+
+<a href="../img/Examples/sysTable.pdf">
+         .pdf
+</a>
+</td>
+
+</tr>	    
+</table>
+	
+<p/>
+
+			      
+<hr/> <h2> <a name="Upper limit table"></a><font color="#808080">Table: Upper Limits </font>
+</h2>
+
+<table align="left" width="100%" bgcolor="#f5f5fa"  border="0" cellpadding="20">
+<tr>
+<td style="width:400px">
+  <strong> Upper limits table </strong> <br>
+  This table shows the model-independent
+  upper limit on the number signal events,
+  given the number of observed/expected events, as well
+  as the upper limit on the visible cross section.
+  Furthermore the <EM> discovery p-value </EM>, p(s=0),
+  is shown. Multiple options exist
+  in the table production script to mould the output
+  to users needs.
+	      
+</td>
+	      
+<td>
+<center>
+<a href="../img/Examples/ulTable.png" target="_top">
+	<img border="0" src="../img/Examples/ulTable.png" width="105%" height="105%"/>
+</a>
+
+<a href="../img/Examples/ulTable.pdf">
+         .pdf
+</a>
+</td>
+
+</tr>	    
+</table>
+			    
+<p/>
+
+
+
+
+
+
+<hr/> <h2> <a name="Further references"></a><font color="#808080">Papers using HistFitter </font>
+</h2>
+
+<ul>
+<li>To be updated. <br>
+</ul>
+
+(See HistFitter publication.)
+
+<p/>
+
+
+
+
+
+<p />
+</center>
+</td> 
+</tr>
+</table>
+<img src="../img/blanko.gif" hspace=0 vspace=0 border=0/>
+<hr />
+
+<!--End Content-->
+</div>
+<!--End Wrapper-->
+</div>
+<div id="menu_container"></div>
+<!--End Left-->
+<div id="foot_container"></div>
+</div>
+<div><center><font face="arial, helvetica" size="-1">
+Last modified: <script type="text/javascript">writeDateModified (false);</script>
+</center></div>
+</body></html>

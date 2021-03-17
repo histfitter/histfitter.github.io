@@ -1,0 +1,64 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--GENERATION_DATE=2011_08_18-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>HistFitter - software framework for statistical data analysis</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="../../HistFitter.css" rel="stylesheet" media="screen" type="text/css"/>
+<script language="javascript" type="text/javascript" src="../../js/js_incl.js"></script>
+<script language="javascript" type="text/javascript" src="../../js/datemodified.js"></script>
+</head>
+
+<body onload="includeBits('Software - Tutorial','HFSW_INT','../../','../../img/HFLogo.gif')">
+
+<div id="container">
+<div id="head_container"></div>
+<!--End Header-->
+<div id="wrapper">
+<div id="content">
+
+<hr />
+<table width="100%" cellpadding="0" cellspacing="5" bgcolor="#f5f5fa">
+<hr />
+<table width="100%"><tr><td bgcolor="#f5f5fa">
+<div class="toc"> <ul>
+
+<li> <a href="#Introduction"><font color="#808080">Introduction </font></a>
+<li> <a href="#Tutorial"><font color="#808080">Tutorial </font></a>
+</li></ul> 
+</div>
+</td></tr></table>
+
+
+<hr />
+<h2><a name="Introduction"></a><a name="Introduction_"></a> <font color="#808080">Introduction </font> </h2>
+
+Find below the HistFitter tutorial as used in the ATLAS collaboration. It is under development to be completely not relying on ATLAS inputs, so some parts are missing ATLAS internal inputs. We hope to have it available as soon as possible.
+
+<h2><a name="Tutorial"></a><font color="#808080"> Tutorial for:<tab> <a href="HistFitterTutorial.pdf">HistFitter_1.0</a> </font> </h2>
+
+	      
+</center>
+</td> 
+</tr>
+</table>
+<img src="../../img/blanko.gif" hspace=0 vspace=0 border=0/>
+<hr />
+
+<!--End Content-->
+</div>
+<!--End Wrapper-->
+</div>
+<div id="menu_container"></div>
+<!--End Left-->
+<div id="foot_container"></div>
+</div>
+<div><center><font face="arial, helvetica" size="-1">
+last modified: <script type="text/javascript">writeDateModified (false);</script>
+</center></div>
+<script type="text/javascript" src="../js/ga_tracker1.js"> </script>
+<script type="text/javascript" src="../js/ga_tracker2.js"> </script>
+</body></html>

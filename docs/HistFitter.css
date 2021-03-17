@@ -1,0 +1,145 @@
+html, body {
+margin: 3px;
+background: #a9bcf5;
+min-height:101%; 
+}
+#container {
+margin: 1px auto;
+border: 5px solid #c3c3c3;
+width: 960px;
+background: white;
+}
+#header {
+background: #e9e9e9 none repeat-x scroll 0% 50%;
+width: 100%;
+height: 100px;
+}
+#content {
+float: right;
+width: 79%;
+margin-right: 5px;
+padding: 0;
+word-wrap: break-word;
+overflow: visible;
+}
+#left {
+float: left;
+width: 20%;
+}
+#footer {
+border-top: 1px solid #cecece;
+padding: 5px 0;
+background: #666666 none repeat scroll 0% 50%;
+width: 100%;
+clear: both;
+text-align: center;
+color: #ffffff;
+}
+#sidebar {
+border-left: 1px solid #cecece;
+border-right: 1px solid #cecece;
+border-bottom: 1px solid #cecece;
+}
+#sidebar ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+list-style-image: none;
+list-style-position: outside;
+}
+#sidebar li {
+border-top: 1px dotted #cecece;
+}
+#sidebar li a, #sidebar li.title {
+border-right: 7px solid #cecece;
+padding: 7px 0 4px 20px;
+display: block;
+font-weight: bold;
+font-size: 1em;
+color: #666666;
+text-decoration: none;
+}
+#sidebar li a:hover, #sidebar li a.selected {
+border-right: 7px solid orange;
+color: orange;
+}
+#sidebar ul ul li {
+padding-left:10pt;
+}
+#sidebar li.title {
+font-style:italic;
+border-right: 7px solid #efefef;
+}
+p {
+margin:1em 0pt 0pt;
+}
+img {
+border: none;
+}
+h1 {
+display: none;
+}
+a {
+color: #0000CC;
+text-decoration: none;
+}
+a:hover {
+color: orange;
+}
+
+.toc {
+background-color:#f5f5fa;
+padding:5px 0px 5px 0px;
+}
+.toc li {
+background-image:url('img/bullet-child-black.gif');
+background-position:2pt 0.5em;
+background-repeat:no-repeat;
+margin-left:1em;
+padding-left:1em;
+}
+.toc ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0pt;
+padding:0pt 0pt 0pt 0.5em;
+}
+h2 {
+clear: both;
+background-color:#FDFAF3;
+border-color:#E2DCC8;
+border-style:solid;
+border-width:0pt 0pt 1px;
+display:block;
+height:auto;
+margin:0.5em 0px 0.35em;
+padding:0.15em 5px;
+}
+h2.archive_alert {
+background-color:#fdf3f3;
+border-color:#e2c8c8;
+}
+h1.title {
+display:inline;
+font-size:180%;
+font-weight:normal;
+line-height:104%;
+color:#000080;
+}
+
+hr {
+background-color:#CCCCCC;
+color:#CCCCCC;
+border:medium none;
+height:1px;
+}
+pre, code, tt {
+color:#7A4707;
+overflow:auto !important;
+width:auto;
+margin:1em 0pt;
+}
+ul li {
+/*font-family: arial;*/
+}

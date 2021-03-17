@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>HistFitter - software framework for statistical data analysis</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="HistFitter.css" rel="stylesheet" media="screen" type="text/css"/>
+<script language="javascript" type="text/javascript" src="js/js_incl.js"></script>
+<script language="javascript" type="text/javascript" src="js/datemodified.js"></script>
+</head>
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55224451-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  -->
+  
+<body onload="includeBits('HistFitter - A software framework for statistical data analysis','home', './','./img/HFLogo.gif')">
+
+<div id="container">
+<div id="head_container"></div>
+<!--End Header-->
+<div id="wrapper">
+<div id="content">
+
+<hr />
+<table width="100%" cellpadding="0" cellspacing="5" bgcolor="#f5f5fa">
+<hr />
+<table width="100%"><tr><td bgcolor="#f5f5fa">
+<div class="toc"> <ul>
+
+<li> <a href="#News"><font color="#808080">News </font></a>
+</li> <li> <a href="#Introduction"><font color="#808080">Introduction </font></a>
+</li> <li> <a href="#HistFitter_Group"><font color="#808080">The HistFitter Group </font></a>
+</li></ul> 
+</div>
+</td></tr></table>
+<hr />
+
+<h2><a name="News"></a><a name="News_"></a> <font color="#808080">News </font> </h2>
+<ul>
+<b>  <li> <a href="./Publication/index.html" target="_top"> <u>October 2014</u>: The publication is submitted to EPJC/arXiV.</a> </b>
+</ul>
+
+<h2><a name="Introduction"></a><a name="Introduction_"></a> <font color="#808080">Introduction </font> </h2>
+A software framework for statistical data analysis, called <strong>HistFitter</strong>, is presented here.
+It has been used extensively by the ATLAS Collaboration to analyze big datasets 
+originating from proton-proton collisions at the Large Hadron Collider at CERN. 
+Since 2012 HistFitter has been the standard statistical tool in searches for supersymmetric
+particles performed by ATLAS.
+
+HistFitter is a programmable and flexible framework to build, book-keep, fit, interpret and present
+results of data models of nearly arbitrary complexity.
+Starting from an object-oriented configuration, defined by users, the framework  
+builds probability density functions that are automatically
+fitted to data and interpreted with statistical tests.
+A key innovation of HistFitter is its design, which is rooted in core analysis strategies of particle physics.
+The concepts of control, signal and validation regions are woven into its very fabric.
+These are progressively treated with statistically rigorous built-in methods.
+Being capable of working with multiple data models at once, HistFitter introduces 
+an additional level of abstraction that allows for easy bookkeeping,
+manipulation and testing of large collections of signal hypotheses.
+Finally, HistFitter provides a collection of tools to present results 
+with publication-quality style through a simple command-line interface.
+<p />
+<h2><a name="HistFitter_Group"></a> <font color="#808080">The HistFitter Group </font> </h2>
+<p />
+The HistFitter group are: <ul>
+<li> <a href="mailto&#58;max&#46;baak&#64;cernSPAMNOT&#46;ch">Max Baak (CERN, Switzerland)</a></li>
+<li> <a href="mailto&#58;geert-jan&#46;besjes&#64;cernSPAMNOT&#46;ch">Geert-Jan Besjes (IMAPP/Nikhef, Netherlands)</a></li>
+<li> <a href="mailto&#58;david&#46;cote&#64;cernSPAMNOT&#46;ch">David C&ocirc;t&eacute; (University of Texas, USA)</a></li>
+<li> <a href="mailto&#58;alex&#46;koutsman&#64;cernSPAMNOT&#46;ch">Alex Koutsman (TRIUMF, Canada)</a></li>
+<li> <a href="mailto&#58;jeanette.miriam&#46;lorenz&#64;cernSPAMNOT&#46;ch">Jeanette Lorenx (LMU/Excellence Cluster Universe, Germany)</a></li>
+<li> <a href="mailto&#58;dan.r&#46;short&#64;gmailSPAMNOT&#46;com">Dan Short (University of Oxford, UK)</a></li>
+</ul> 
+<p />
+
+<p />
+<!--End Content-->
+</div>
+<!--End Wrapper-->
+<div id="menu_container"></div>
+<!--End Left-->
+<div id="foot_container"></div>
+</div></div>
+<div><center><font face="arial, helvetica" size="-1">
+last modified: <script type="text/javascript">writeDateModified (false);</script>
+</center></div>
+<script type="text/javascript" src="js/ga_tracker1.js"> </script>
+<script type="text/javascript" src="js/ga_tracker2.js"> </script>
+</body></html>
