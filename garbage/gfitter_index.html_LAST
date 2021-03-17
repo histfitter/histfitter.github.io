@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>Gfitter - A Generic Fitter Project for HEP Model Testing</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="Gfitter.css" rel="stylesheet" media="screen" type="text/css"/>
+<script language="javascript" type="text/javascript" src="js/js_incl.js"></script>
+<script language="javascript" type="text/javascript" src="js/datemodified.js"></script>
+</head>
+
+<body onload="includeBits('A Generic Fitter Project for HEP Model Testing','home', './','./img/GfitterLogo.gif')">
+
+<div id="container">
+<div id="head_container"></div>
+<!--End Header-->
+<div id="wrapper">
+<div id="content">
+
+<hr />
+<table width="100%" cellpadding="0" cellspacing="5" bgcolor="#f5f5fa">
+<tr><td style="width:300px">
+<center>
+     <a href="./Standard_Model" target="_top"><img border="0" src="./Figures/2014_07_16_Scan_MH_logo_prev.png" />
+</a>
+</center>
+</td>
+<td style="width:300px">
+<center>
+     <a href="./Standard_Model" target="_top"><img border="0" src="./Figures/2014_07_16_Scan2D_MWvsmt_logo_prev.png" />
+</a>
+</center>
+</td></tr></table>
+<hr />
+<table width="100%"><tr><td bgcolor="#f5f5fa">
+<div class="toc"> <ul>
+
+<li> <a href="#News"><font color="#808080">News </font></a>
+</li> <li> <a href="#Introduction"><font color="#808080">Introduction </font></a>
+</li> <li> <a href="#Gfitter_Group"><font color="#808080">The Gfitter Group </font></a>
+</li></ul> 
+</div>
+</td></tr></table>
+<hr />
+
+<h2><a name="News"></a><a name="News_"></a> <font color="#808080">News </font> </h2>
+<ul>
+<b>  <li> <a href="./Standard_Model/index.html" target="_top"> <u>Jul 2014</u>: The SM fit in NNLO</a> </b>
+<b>  <li> <a href="./Standard_Model/index.html" target="_top"> <u>Sep 2013</u>: Update of SM fit with corrected R<sub>b</sub> calculation</a> </b>
+<b>  <li> <a href="./Software/index.html" target="_top"> <u>June 2013</u>: Version 1.1 of the Gfitter software available</a> </b>
+<b>  <li> <a href="./Standard_Model/index.html" target="_top"> <u>May 2013</u>: Update on SM fits (including new top mass and updated theory prediction on Rb) </a> </b>
+<b>  <li> <a href="./Figures/EPJC_72_11_FRONTCOVER.gif" target="_top"> <u>Dec 2012</u>: Gfitter figure on front-cover of European Physical Journal C!</b> <img src="./Figures/EPJC_72_11_FRONTCOVER.gif" width="7%" > </a></b>
+<b>  <li> <a href="./Software/index.html" target="_top"> <u>Nov 2012</u>: Gfitter software available online </a> 
+<b>  <li> <a href="./Standard_Model/index.html" target="_top"> <u>Sep 2012</u>: New Gfitter publication: The Electroweak Fit of the Standard Model after the Discovery of a New Boson at the LHC </a> 
+<a href="./publications.html" target="_top"> (link to publication) </a></b>
+<b>  <li> <a href="./Standard_Model/2012_05_03_index.html" target="_top"> <u>May 2012</u>: Update on SM fits (including new W mass, new theory prediction, and recent LHC Higgs exclusions) </a> </b>
+<b>  <li> <a href="./Standard_Model/2012_08_18_index.html" target="_top"> <u>Aug 2011</u>: Updates results of the SM fit using new Tevatron Higgs and top combination (EPS11)</a> </b>
+<b>  <li> <a href="./Standard_Model/2011_07_21_index.html" target="_top"> <u>Jul 2011</u>: New Gfitter publication (using first result from direct Higgs searches at LHC)</a> 
+<a href="./publications.html" target="_top"> (link to publication) </a></b>
+<li> <a href="./Figures/EPJC_71_1_FRONTCOVER.gif" target="_top"> 
+<b><u>Feb 2011</u>: Gfitter figure on front-cover of European Physical Journal C!</b> <img src="./Figures/EPJC_71_1_FRONTCOVER.gif" width="7%" > </a></b>
+<b><li> <a href="./Oblique_Parameters" target="_top"> <u>Oct 2010</u>: Determination of oblique parameters (STU) and fits to several new physics theories!</sup></a></b>
+<b><li><a href="./Two_Higgs_Doublet_Model" target="_top"><u>July 2009</u>: Updated results for the Two-Higgs-Doublet-Model Fit </a></b>
+</ul>
+
+<h2><a name="Introduction"></a><a name="Introduction_"></a> <font color="#808080">Introduction </font> </h2>
+The generic fitting package <strong>Gfitter</strong> comprises a framework for 
+the statistical analysis of parameter estimation problems in HEP. It is specifically
+designed to provide a user-friendly environment for involved fitting problems, 
+such as the global Standard Model fit to electroweak precision data. During its
+development, it was found that Gfitter is also a convenient framework for 
+averaging problems, ranging from simple weighted means using or not correlated 
+input data, to more involved problems with common systematic errors, requiring 
+or not parameter rescaling. 
+
+<p />
+<h2><a name="Gfitter_Group"></a> <font color="#808080">The Gfitter Group </font> </h2>
+<p />
+The Gfitter group are: <ul>
+<li> <a href="mailto&#58;max&#46;baak&#64;cernSPAMNOT&#46;ch">Max Baak (CERN, Switzerland)</a></li>
+<li> <a href="mailto&#58;jakub&#46;cuth&#64;cernSPAMNOT&#46;ch">Jakub Cuth (U. Mainz, Germany)</a></li> 
+<li> <a href="mailto&#58;johannes&#46;haller&#64;physik.uni-hamburgSPAMNOT&#46;de">Johannes Haller (U. Hamburg, Germany)</a></li> 
+<li> <a href="mailto&#58;andreas&#46;hoecker&#64;cernSPAMNOT&#46;ch">Andreas Hoecker (CERN, Switzerland)</a></li> 
+<li> <a href="mailto&#58;roman&#46;kogler&#64;physik.uni-hamburgSPAMNOT&#46;de">Roman Kogler (U. Hamburg, Germany)</a></li> 
+<li> <a href="mailto&#58;klaus&#46;moenig&#64;desySPAMNOT&#46;de">Klaus M&ouml;nig (DESY, Germany)</a></li> 
+<li> <a href="mailto&#58;matthias&#46;schott&#64;cernSPAMNOT&#46;ch">Matthias Schott (U. Mainz, Germany)</a></li>
+<li> <a href="mailto&#58;joerg&#46;stelzer&#64;cernSPAMNOT&#46;ch">J&ouml;rg Stelzer (Michigan State, USA)</a></li>
+</ul> 
+<p />
+
+<p />
+<!--End Content-->
+</div>
+<!--End Wrapper-->
+<div id="menu_container"></div>
+<!--End Left-->
+<div id="foot_container"></div>
+</div></div>
+<div><center><font face="arial, helvetica" size="-1">
+last modified: <script type="text/javascript">writeDateModified (false);</script>
+</center></div>
+<script type="text/javascript" src="js/ga_tracker1.js"> </script>
+<script type="text/javascript" src="js/ga_tracker2.js"> </script>
+</body></html>

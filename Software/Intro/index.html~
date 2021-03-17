@@ -1,0 +1,151 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--GENERATION_DATE=2011_08_18-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>HistFitter - software framework for statistical data analysis</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="../../HistFitter.css" rel="stylesheet" media="screen" type="text/css"/>
+<script language="javascript" type="text/javascript" src="../../js/js_incl.js"></script>
+<script language="javascript" type="text/javascript" src="../../js/datemodified.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55224451-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body onload="includeBits('Software - Introduction','HFSW_INT','../../','../../img/HFLogo.gif')">
+
+<div id="container">
+<div id="head_container"></div>
+<!--End Header-->
+<div id="wrapper">
+<div id="content">
+
+<hr />
+<table width="100%" cellpadding="0" cellspacing="5" bgcolor="#f5f5fa">
+<hr />
+<table width="100%"><tr><td bgcolor="#f5f5fa">
+<div class="toc"> <ul>
+
+<li> <a href="#Introduction"><font color="#808080">Introduction </font></a>
+</li> <li> <a href="#Features"><font color="#808080">Features </font></a>
+</li> <li> <a href="#Recommended_Version"><font color="#808080">Recommended version and release notes </font></a>
+</li> <li> <a href="#Structure"><font color="#808080">Structure </font></a>
+</li></ul> 
+</div>
+</td></tr></table>
+
+
+<hr />
+<h2><a name="Introduction"></a><a name="Introduction_"></a> <font color="#808080">Introduction </font> </h2>
+A software framework for statistical data analysis, called <strong>HistFitter</strong>, is described in detail here.
+<p />
+
+HistFitter is written in Python and C++, the former being used for configuration and the latter for CPU-intensive calculations. Internally, HistFitter uses the software packages
+	    <a href="http://cds.cern.ch/record/1456844?ln=en" target="_top">HistFactory </a>
+ and
+	    <a href="http://arxiv.org/abs/1009.1003" target="_top"> RooStats</a>, which are based on
+	    <a href="http://arxiv.org/abs/physics/0306116" target="_top"> RooFit </a>
+and
+	    <a href="http://www.sciencedirect.com/science/article/pii/S016890029700048X" target="_top"> ROOT  </a>
+to construct parametric models and perform statistical tests of the data.
+
+
+
+
+<hr />
+<h2><a name="Features"></a><a name="Features"></a> <font color="#808080">Features</font> </h2>
+HistFitter extends these tools in four key areas:
+
+<p>
+1. Starting from an object-oriented configuration, defined by users, in a coherent way the framework
+builds probability density functions that are automatically
+fitted to data and interpreted with statistical tests.
+<p>
+2. A key innovation of HistFitter is its design, which is rooted in core analysis strategies of particle physics.
+The concepts of control, signal and validation regions are woven into its very fabric.
+These are progressively treated with statistically rigorous built-in methods.
+<p>
+3. Being capable of working with multiple data models at once, HistFitter introduces
+an additional level of abstraction that allows for easy bookkeeping,
+manipulation and testing of large collections of signal hypotheses.
+<p>
+4. Finally, HistFitter provides a collection of tools to present results
+with publication-quality style through a simple command-line interface.
+
+<hr />
+
+<h2><a name="Recommended_Version"></a><font color="#808080"> Recommended version:</font> <tab> <strong>HistFitter-1.0</strong> </h2>
+
+<p>
+<b>Release date</b>: October 2014 <br>
+<p>
+<b>Release notes</b>: The first version to be released for public use.
+<p>
+<b>Download</b>: <a href="../../Files/HistFitter1.0.tar.bz2">HistFitter.1.0.tar.bz2</a> or <a href="../../Files/HistFitter1.0.tar.gz">HistFitter.1.0.tar.gz</a>. <br> (Please note that the HistFitter group can provide support only on a best-effort basis. But we are happy to hear feedback.)
+<p>
+</ul>
+			  
+<a href="prev_versions_index.html"> View previous software versions </a>
+
+<p />
+
+				  
+<hr />
+<h2><a name="Structure"></a><font color="#808080"> Package structure:<tab> </font> </h2>
+				  
+The HistFitter package consists of: 
+<ul>
+<li> <strong>./</strong>: contains setup scripts and README. <p>
+
+<li> <strong>scripts/</strong>: contains the top-level script <TT>HistFitter.py</TT> used for most fitting/hypothesis-testing/plotting operations starting from a user-defined configuration file, as well as several useful scripts for presentation of results by means of table/plot production. <p>
+
+<li> <strong>python/</strong>: contains the Python configuration classes used to process user-defined configuration files, as well as the book-keeping machinery for histograms.<p>
+
+<li> <strong>src/</strong>: contains classes and functions for fitting/hypothesis-testing/plotting, with calls to appropriate RooFit/RooStats functions, as well as the make file for the C++ side of the package. <p>
+
+<li> <strong>config/</strong>: contains only the HistFactory schema file, that is used to produce a <a href="http://root.cern.ch/root/html/RooWorkspace.html"> RooWorkspace </a> from the histograms, which is a persistent RooFit object to transport a likelihood containing both the model and the data. <p>
+
+<li> <strong>analysis/</strong>: contains some examples of user-defined configuration files used in the <a href="../Tutorial/index.html"> tutorial</a>. <p>
+
+<li> <strong>macros/</strong>: contains examples for contour production macros (also used in the <a href="../Tutorial/index.html"> tutorial</a>), as well as example of using the C++ side of HistFitter without using the Python side.  <p>
+		
+<li> <strong>data/</strong>: empty by default, but here all the histograms produced from a user-defined configuration get saved inside a ROOT file. <p>
+
+<li> <strong>results/</strong>: empty by default, but here all the RooWorkspaces produced from a user-defined configuration get saved inside a ROOT file, as well as the plots produced by calls to <TT>HistFitter.py</TT>. <p>
+
+<li> <strong>lib/</strong>: contains shared libraries, in particular <TT>libHistFitter.so</TT> that gets created once the package is compiled. <p>
+		      
+</ul>
+
+
+	
+<p />
+</center>
+</td> 
+</tr>
+</table>
+<img src="../../img/blanko.gif" hspace=0 vspace=0 border=0/>
+<hr />
+
+<!--End Content-->
+</div>
+<!--End Wrapper-->
+</div>
+<div id="menu_container"></div>
+<!--End Left-->
+<div id="foot_container"></div>
+</div>
+<div><center><font face="arial, helvetica" size="-1">
+last modified: <script type="text/javascript">writeDateModified (false);</script>
+</center></div>
+</body></html>

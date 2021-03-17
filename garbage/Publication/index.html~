@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>HistFitter - Publications</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="../HistFitter.css" rel="stylesheet" media="screen" type="text/css"/>
+<script language="javascript" type="text/javascript" src="../js/js_incl.js"></script>
+<script language="javascript" type="text/javascript" src="../js/datemodified.js"></script>
+</head>
+
+<body onload="includeBits('Publications','refpaper','../','../img/HFLogo.gif')">
+<div id="container">
+<div id="head_container"></div>
+<!--End Header-->
+<div id="wrapper">
+<div id="content">
+
+
+<h2><a name="Paper corresponding to the first public release"></a> <font color="#808080">HistFitter software framework for statistical data analysis </font> </h2> <ul>
+<br /> <strong>Authors</strong>: <tab> M. Baak, G.J. Besjes, D. C&ocirc;t&eacute;, A. Koutsman, J. Lorenz, D. Short
+
+<br /> <strong>Published</strong>: <tab> <a href="http://dx.doi.org/10.1140/epjc/">Eur. Phys. J. C </a> (to be submitted)
+
+<br /> <strong>Reference</strong>: <tab>
+<a href="http://inspirehep.net/search?p=find+eprint+1209.2716" target="_top">(inspire - to be updated)</a>
+
+<br /> <strong>arXiv</strong>: <tab> 
+<a href="http://arxiv.org/abs" target="_top"> arXiv:XXX.XXX [hep-ph]</a>
+<br /></ul> 
+
+
+
+
+
+
+<p />
+<!--End Content-->
+</div>
+<!--End Wrapper-->
+<div id="menu_container"></div>
+<!--End Left-->
+<div id="foot_container"></div>
+</div></div>
+<div><center><font face="arial, helvetica" size="-1">
+last modified: <script type="text/javascript">writeDateModified (false);</script>
+</center></div>
+</body></html>

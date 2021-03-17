@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>HistFitter - software framework for statistical data analysis</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="HistFitter.css" rel="stylesheet" media="screen" type="text/css"/>
+<script language="javascript" type="text/javascript" src="./js/js_incl.js"></script>
+<script language="javascript" type="text/javascript" src="./js/datemodified.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55224451-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+  
+<body onload="includeBits('A software framework for statistical data analysis','home', './','./img/HFLogo.gif')">
+
+<div id="container">
+<div id="head_container"></div>
+<!--End Header-->
+<div id="wrapper">
+<div id="content">
+
+<hr />
+<table width="100%" cellpadding="0" cellspacing="5" bgcolor="#f5f5fa">
+<hr />
+<table width="100%"><tr><td bgcolor="#f5f5fa">
+<div class="toc"> <ul>
+
+<li> <a href="#News"><font color="#808080">News </font></a>
+</li> <li> <a href="#Introduction"><font color="#808080">Introduction </font></a>
+</li> <li> <a href="#HistFitter_Group"><font color="#808080">The HistFitter Group </font></a>
+</li> <li> <a href="#Acknowledgements"><font color="#808080">Acknowledgements </font></a>
+</li></ul> 
+</div>
+</td></tr></table>
+<hr />
+
+<h2><a name="News"></a><a name="News_"></a> <font color="#808080">News </font> </h2>
+<ul>
+<b>  <li> <a href="./PublicationsTalks/index.html" target="_top"> <u>March 2015</u>: The HistFitter publication is accepted by EPJC.</a> </b>
+</ul>
+<ul>
+<b>  <li> <a href="https://indico.desy.de/conferenceDisplay.py?ovw=True&confId=11644" target="_top"> <u>March 2015</u>: Tutorial at DESY </a> </b>
+</ul>
+
+
+<h2><a name="Introduction"></a><a name="Introduction_"></a> <font color="#808080">Introduction </font> </h2>
+A software framework for statistical data analysis, called <strong>HistFitter</strong>, is presented here. 
+<p>
+HistFitter has been used extensively by the ATLAS Collaboration to analyze big datasets 
+originating from proton-proton collisions at the Large Hadron Collider at CERN. 
+Since 2012 HistFitter has been the standard statistical tool in searches for supersymmetric
+particles performed by ATLAS. HistFitter is a programmable and flexible framework to build, book-keep, fit, interpret and present
+results of data models of nearly arbitrary complexity.<br>
+It extends existing statistics tools in four key areas:
+
+<p />
+<strong>Programmable framework:</strong> HistFitter performs complete statistical analyses
+of pre-formatted input data samples, from a single user-defined configuration file,
+by putting together tools from several sources in a coherent and programmable framework.
+
+<p />
+<strong>Analysis strategy:</strong> HistFitter has built-in concepts of control, signal and
+validation regions, which are used to constrain, extrapolate and validate data model
+predictions across an analysis. The framework also introduces a statistically rigorous treatment of the validation regions.
+
+<p />
+<strong>Bookkeeping:</strong> HistFitter can keep track of numerous data models,
+including all generated input histograms, both before and after adjustment to measured data,
+and can perform statistical tests and model-parameter scans of all these models
+in an organized way. This introduces a powerful additional level of abstraction,
+which aids the processing of large collections of signal hypothesis tests.
+
+<p />
+<strong>Presentation and interpretation:</strong> HistFitter provides a collection of methods to
+determine the statistical significance of signal hypotheses,
+estimate the quality of likelihood fits,
+and produce publication-quality tables and plots expressing these results.
+
+<p />
+<h2><a name="HistFitter_Group"></a> <font color="#808080">The HistFitter Group </font> </h2>
+<p />
+The HistFitter group are: <ul>
+<li> <a href="mailto&#58;max&#46;baak&#64;cernSPAMNOT&#46;ch">Max Baak (CERN, Switzerland)</a></li>
+<li> <a href="mailto&#58;geert-jan&#46;besjes&#64;cernSPAMNOT&#46;ch">Geert-Jan Besjes (Niels Bohr Institute, University of Copenhagen, Denmark)</a></li>
+<li> <a href="mailto&#58;david&#46;cote&#64;cernSPAMNOT&#46;ch">David C&ocirc;t&eacute; (University of Texas, USA)</a></li>
+<li> <a href="mailto&#58;alex&#46;koutsman&#64;cernSPAMNOT&#46;ch">Alex Koutsman (TRIUMF, Canada)</a></li>
+<li> <a href="mailto&#58;jeanette.miriam&#46;lorenz&#64;cernSPAMNOT&#46;ch">Jeanette Lorenz (LMU/Excellence Cluster Universe, Germany)</a></li>
+<li> <a href="mailto&#58;dan.r&#46;short&#64;gmailSPAMNOT&#46;com">Dan Short (University of Oxford, UK)</a></li>
+</ul> 
+<p />
+
+
+<h2><a name="Acknowledgements"></a><font color="#808080"> Acknowledgements:<tab> </font> </h2>
+
+We are grateful to the RooFit, RooStats, and HistFactory authors for a fruitful collaboration and useful feedback,
+in particular to Kyle Cranmer, Lorenzo Moneta and Wouter Verkerke.
+
+<p>
+We like to thank the ATLAS collaboration and its SUSY physics group
+for useful discussions and suggestions for the development of HistFitter.
+We are specifically grateful to following members of the ATLAS SUSY
+physics group for their support and contributions to the development of
+HistFitter: Andreas Hoecker, Till Eifert, Zachary Marshall, Emma Sian Kuwertz, Evgeny Khramov, Sophio Pataraia and Marcello
+Barisonzi.
+
+<p>
+For graphical support and development we extend our gratitude to Solkin Keizer. <br>
+We also kindly thank the <a href="http://cern.ch/gfitter" target="_top">Gfitter</a> group for using their web page style.
+			  
+<p>
+This work has been supported by: 
+<ul>
+<li>CERN, Switzerland; <br>
+<li>The DFG cluster of excellence "Origin and Structure of the Universe", Germany; <br>
+<li>The Natural Sciences and Engineering Research Council of Canada and the ATLAS-Canada Subatomic Physics Project Grant, Canada; <br>
+<li>The Department Of Energy and the National Science Foundation of the United States of America, United States of America; <br>
+<li>FOM and NWO, the Netherlands; <br>
+<li>STFC, United Kingdom. <br>
+</ul>
+
+
+<p />
+<!--End Content-->
+</div>
+<!--End Wrapper-->
+<div id="menu_container"></div>
+<!--End Left-->
+<div id="foot_container"></div>
+</div></div>
+<div><center><font face="arial, helvetica" size="-1">
+Last modified: <script type="text/javascript">writeDateModified (false);</script>
+</center></div>
+</body></html>

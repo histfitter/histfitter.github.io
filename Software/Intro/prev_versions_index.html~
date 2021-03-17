@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--GENERATION_DATE=2012_09_21-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>Gfitter - Software</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="../Gfitter.css" rel="stylesheet" media="screen" type="text/css"/>
+<script language="javascript" type="text/javascript" src="../js/js_incl.js"></script>
+<script language="javascript" type="text/javascript" src="../js/datemodified.js"></script>
+</head>
+
+<body onload="includeBits('Previous Software Versions','sw','../','../img/GfitterLogo.gif')">
+
+<div id="container">
+<div id="head_container"></div>
+<!--End Header-->
+<div id="wrapper">
+<div id="content">
+
+
+<hr />
+<div class="toc"> <ul>
+<li> <a href="#Introduction"> <font color="#808080">Introduction </font> </a> </li>
+<li> <a href="#1.0"> <font color="#808080">Version 1.0 </font> </a> </li>
+</ul> 
+</div>
+
+
+<h2><a name="Introduction"></a><font color="#808080"> Introduction </font> </h2>
+
+<p>
+On this page a list of older software versions can be found. Please note that the software versions listed here are not maintained anymore. The newest and maintained version of Gfitter can be found <a href="index.html">here</a>.
+<p>
+
+<h2><a name="1.0"></a><font color="#808080"> Version:<tab> <a href="Gfitter1_0.tar.bz2">Gfitter 1.0</a> </font> </h2>
+
+<p>
+<b>Release date</b>: September 2012 <br>
+<p>
+<p>
+<b>Release notes</b>: First public version of the Gfitter code. <br>
+<p>
+<b> Packages included: </b>
+<ul>
+   <li> <strong>src/</strong>: Gfitter core code (controlling, data
+   handling, fitting, statistics analysis, etc.) <p>
+<ul>
+Gfitter core package provides parameter (so-called GParameters)
+fitting via data cards. Currently, the input data are written in XML
+format, which however can be transparently replaced by any format. The
+theory to be tested is coded in form of GTheory derivatives, in which
+the dependent GParameters, defined in the input data card, are
+booked. Each package comprising a full theory has its own
+namespace. Parameter and theory handling and the attribution of
+theories to parameters (through their names) is centrally performed in
+the Gfitter core package via a central data container class, denoted
+GStore. The detection of fit parameters is automatic, depending on
+whether or not a given parameter has an associated GTheory.<p>
+</ul>
+
+   <li> <strong>./</strong>: setup scripts, README and instruction files <p>
+
+   <li> <strong>test/</strong>: contains Gfitter application macros
+   and XML driving cards <p>
+
+   <li> <strong>gtest/</strong>: contains a dummy fit example <p>   
+
+   <li> <strong>lib/</strong>:  contains shared libraries <p>
+
+   <li> <strong>gew/</strong>: package for the calculation of
+   electroweak observables; features: <p>
+     <ul>
+       <li> M<sub>W</sub>: <tab>full two-loop corrections and known
+       beyond-two-loop corrections (M. Awramik et al., Phys. Rev. D69,
+       053006 (2004), hep-ph/0311148)
+       <li> sin<sup>2</sup>θ<sup>l</sup><sub>eff</sub>: <tab> full two-loop
+	    corrections and known beyond-two-loop corrections (M. Awramik et al.,
+	    JHEP 11, 048 (2006), hep-ph/0608099; M. Awramik et al.,
+	    Nucl.Phys.B813:174-187 (2009), arXiv:0811.1364)
+       <li> Partial and total Z widths and total W width: <tab>acurate
+	    parametrizations (Cho et. al, arXiv:1104.1769, see also older papers
+	    1, 2, 3)
+       <li> strong coupling: <tab>complete fourth-order (3NLO) calculation of
+            the hadronic Z width (P. A. Baikov et al., arXiv:1201.5804)
+       <li> R<sub>b</sub>: <tab>electroweak two-loop corrections (Freitas and
+            Huang, arXiv:1205.0299)<p>
+     </ul>
+   
+   <li> <strong>goblique/</strong>: package for the Standard Model
+   predictions of oblique parameters <p>
+   
+   <li> <strong>gstu/</strong>: package for the oblique parameter
+   predictions for the Standard Model and beyond-SM models <p>
+   
+   <li> <strong>g2hdm/</strong>: package for the prediction of
+   observables in generic 2-Higgs doublet models <p>
+
+</ul>
+
+<b>Download</b>: <a href="Gfitter1_0.tar.bz2">Gfitter_1.0.tar</a>  (Please note that the Gfitter group can provide support only on a best-effort basis.)
+
+</ul>
+
+<p />
+
+<h2><a name="old_code"></a><font color="#808080"> <p></a> </font> </h2>
+
+Previous, no longer maintained <a href="http://fh.desy.de/projekte/gfitter01/Gfitter01.htm">code</a>
+
+<!-- <hr /> -->
+
+<p />
+<p />
+
+<!--End Content-->
+</div>
+<!--End Wrapper-->
+<div id="menu_container"></div>
+<!--End Left-->
+<div id="foot_container"></div>
+</div></div>
+<div><center><font face="arial, helvetica" size="-1">
+last modified: <script type="text/javascript">writeDateModified (false);</script>
+</center></div>
+<script type="text/javascript" src="../js/ga_tracker1.js"> </script>
+<script type="text/javascript" src="../js/ga_tracker2.js"> </script>
+</body></html>

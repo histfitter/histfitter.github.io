@@ -1,0 +1,136 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--GENERATION_DATE=2011_08_18-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>HistFitter - software framework for statistical data analysis</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="../HistFitter.css" rel="stylesheet" media="screen" type="text/css"/>
+<script language="javascript" type="text/javascript" src="../js/js_incl.js"></script>
+<script language="javascript" type="text/javascript" src="../js/datemodified.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55224451-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body onload="includeBits('Examples','HFSW_INT','../','../img/HFLogo.gif')">
+
+<div id="container">
+<div id="head_container"></div>
+<!--End Header-->
+<div id="wrapper">
+<div id="content">
+
+<hr />
+<table width="100%" cellpadding="0" cellspacing="5" bgcolor="#f5f5fa">
+<hr />
+<table width="100%"><tr><td bgcolor="#f5f5fa">
+<div class="toc"> <ul>
+
+<li> <a href="#Introduction"><font color="#808080">Introduction </font></a>
+</li> <li> <a href="#Before/after fit plots"><font color="#808080">Plot: Before/after fit plots </font></a>
+</li> <li> <a href="#Contour plot"><font color="#808080">Plot: Contour plot </font></a>
+</li> <li> <a href="#Pull plot"><font color="#808080">Plot: Pull plot </font></a>
+</li> <li> <a href="#Before/after fit plots"><font color="#808080">Table: Yields </font></a>
+</li> <li> <a href="#Contour plot"><font color="#808080">Table: Systematics </font></a>
+</li> <li> <a href="#Pull plot"><font color="#808080">Table: Upper Limits </font></a>
+</li></ul> 
+</div>
+</td></tr></table>
+
+
+<hr />
+<h2><a name="Introduction"></a><a name="Introduction_"></a> <font color="#808080">Introduction </font> </h2>
+A software framework for statistical data analysis, called <strong>HistFitter</strong>, is described in detail here.
+<p />
+
+HistFitter is written in Python and C++, the former being used for configuration and the latter for CPU-intensive calculations. Internally, HistFitter uses the software packages
+	    <a href="http://cds.cern.ch/record/1456844?ln=en" target="_top">HistFactory </a>
+ and
+	    <a href="http://arxiv.org/abs/1009.1003" target="_top"> RooStats</a>, which are based on
+	    <a href="http://arxiv.org/abs/physics/0306116" target="_top"> RooFit </a>
+and
+	    <a href="http://www.sciencedirect.com/science/article/pii/S016890029700048X" target="_top"> ROOT  </a>
+to construct parametric models and perform statistical tests of the data.
+
+
+
+<hr/> <h2> <a name="#Before/after fit plots"></a> <a name="#Before"></a><font color="#808080">Plot: Before/after fit plots </font>
+</h2>
+
+<hr />
+<table width="100%" cellpadding="0" cellspacing="5" bgcolor="#f5f5fa">
+<tr><td style="width:300px">
+<center>
+     <a href="./BeforeFit" target="_top"><img border="0" src="../img/Examples/beforeFit2.png" />
+</a>
+</center>
+</td>
+<td style="width:300px">
+<center>
+     <a href="./AfterFit" target="_top"><img border="0" src="../img/Examples/afterFit.pdf" />
+</a>
+</center>
+</td></tr></table>
+<p/>
+
+	      
+<hr/> <h2> <a name="#Contour plot"></a> <a name="#Contour"></a><font color="#808080">Plot: Contour plot </font>
+</h2>
+B
+<p/>
+
+		  
+<hr/> <h2> <a name="#Pull plot"></a> <a name="#Pull"></a><font color="#808080">Plot: Pull plot </font>
+</h2>
+Bla
+<p/>
+
+		      
+<hr/> <h2> <a name="#Before/after fit plots"></a> <a name="#Before"></a><font color="#808080">Table: Yields </font>
+</h2>
+Bl
+<p/>
+
+			  
+<hr/> <h2> <a name="#Contour plot"></a> <a name="#Contour"></a><font color="#808080">Table: Systematics </font>
+</h2>
+Bla
+<p/>
+
+			      
+<hr/> <h2> <a name="#Pull plot"></a> <a name="#Pull"></a><font color="#808080">Table: Upper Limits </font>
+</h2>
+Bla
+<p/>
+
+
+<p />
+</center>
+</td> 
+</tr>
+</table>
+<img src="../img/blanko.gif" hspace=0 vspace=0 border=0/>
+<hr />
+
+<!--End Content-->
+</div>
+<!--End Wrapper-->
+</div>
+<div id="menu_container"></div>
+<!--End Left-->
+<div id="foot_container"></div>
+</div>
+<div><center><font face="arial, helvetica" size="-1">
+last modified: <script type="text/javascript">writeDateModified (false);</script>
+</center></div>
+</body></html>
